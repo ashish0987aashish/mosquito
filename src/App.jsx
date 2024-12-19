@@ -35,7 +35,7 @@ const App = () => {
    <main>
 
     <div
-       onClick={()=>{
+       onMouseOver={()=>{
           setPositionX(setX())
           setpositionY(setY())}
        }
